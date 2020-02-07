@@ -31,18 +31,19 @@ module.exports = {
         'import/prefer-default-export': 'off',
         '@typescript-eslint/explicit-function-return-type': 'off',
         '@typescript-eslint/explicit-member-accessibility': 'off',
-    },
-    settings: {
         "import/extensions": [
             "error",
             "ignorePackages",
             {
-                "js": "never",
-                "jsx": "never",
-                "ts": "never",
-                "tsx": "never"
+              "js": "never",
+              "jsx": "never",
+              "ts": "never",
+              "tsx": "never"
             }
-        ],
+        ]
+    },
+    settings: {
+        "import/extensions": [".js", ".jsx", ".ts", ".tsx"],
         "import/parsers": {
             "@typescript-eslint/parser": [".ts",".tsx"]
         },
