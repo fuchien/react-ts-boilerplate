@@ -8,6 +8,7 @@ module.exports = {
         'airbnb',
         'plugin:@typescript-eslint/recommended',
         'prettier/@typescript-eslint',
+        "@rfgamaral/eslint-config-typescript-unified"
     ],
     globals: {
         Atomics: 'readonly',
