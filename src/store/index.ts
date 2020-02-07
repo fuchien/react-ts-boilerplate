@@ -11,7 +11,7 @@ export interface ApplicationState {
 
 const sagaMiddleware = createSagaMiddleware();
 
-const store: Store<ApplicationState> = createStore(
+const store: Store<any> = createStore(
   rootReducer,
   applyMiddleware(sagaMiddleware),
 );
