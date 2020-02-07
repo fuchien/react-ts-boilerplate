@@ -41,7 +41,6 @@ module.exports = {
                 tsx: 'never',
             },
         ],
-        indent: ['error', 4],
     },
     settings: {
         'import/extensions': ['.js', '.jsx', '.ts', '.tsx'],
