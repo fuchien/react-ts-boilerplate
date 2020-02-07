@@ -41,6 +41,7 @@ module.exports = {
                 tsx: 'never',
             },
         ],
+        '@typescript-eslint/indent': ['error', 2],
     },
     settings: {
         'import/extensions': ['.js', '.jsx', '.ts', '.tsx'],
