@@ -31,27 +31,28 @@ module.exports = {
         'import/prefer-default-export': 'off',
         '@typescript-eslint/explicit-function-return-type': 'off',
         '@typescript-eslint/explicit-member-accessibility': 'off',
-        "import/extensions": [
-            "error",
-            "ignorePackages",
+        'import/extensions': [
+            'error',
+            'ignorePackages',
             {
-              "js": "never",
-              "jsx": "never",
-              "ts": "never",
-              "tsx": "never"
-            }
-        ]
+                js: 'never',
+                jsx: 'never',
+                ts: 'never',
+                tsx: 'never',
+            },
+        ],
+        indent: ['error', 4],
     },
     settings: {
-        "import/extensions": [".js", ".jsx", ".ts", ".tsx"],
-        "import/parsers": {
-            "@typescript-eslint/parser": [".ts",".tsx"]
+        'import/extensions': ['.js', '.jsx', '.ts', '.tsx'],
+        'import/parsers': {
+            '@typescript-eslint/parser': ['.ts', '.tsx'],
         },
-        "import/resolver": {
-            "node": {
-                "extensions": [".js",".jsx",".ts",".tsx"]
+        'import/resolver': {
+            node: {
+                extensions: ['.js', '.jsx', '.ts', '.tsx'],
             },
-            typescript: {}
-        }
-    }
-}
+            typescript: {},
+        },
+    },
+};
