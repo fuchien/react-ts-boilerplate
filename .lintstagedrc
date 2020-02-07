@@ -1,6 +1,7 @@
 {
   "src/**/*.tsx": [
       "eslint --fix",
+      "yarn test",
       "git add"
   ],
   "src/**/*.ts": [
