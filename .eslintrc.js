@@ -33,7 +33,14 @@ module.exports = {
         '@typescript-eslint/explicit-member-accessibility': 'off',
     },
     settings: {
-        "import/extensions": [".js",".jsx",".ts",".tsx"],
+        "import/extensions": ["error",
+        "always",
+        {
+          "ts": "never",
+          "tsx": "never",
+          "js": "never",
+          "jsx": "never"
+        }],
         "import/parsers": {
             "@typescript-eslint/parser": [".ts",".tsx"]
         },
