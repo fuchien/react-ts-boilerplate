@@ -1,13 +1,13 @@
 /**
  * Action types
  */
-export enum AuthTypes {
-    SIGN_IN_REQUEST = 'authentication/SIGN_IN_REQUEST',
-    SIGN_UP_REQUEST = 'authentication/SIGN_UP_REQUEST',
-    SIGN_IN_SUCCESS = 'authentication/SIGN_IN_SUCCESS',
-    SIGN_IN_FAILURE = 'authentication/SIGN_IN_FAILURE',
-    SIGN_OUT = 'authentication/SIGN_OUT',
-}
+export const AuthTypes = {
+  SIGN_IN_REQUEST: 'authentication/SIGN_IN_REQUEST',
+  SIGN_UP_REQUEST: 'authentication/SIGN_UP_REQUEST',
+  SIGN_IN_SUCCESS: 'authentication/SIGN_IN_SUCCESS',
+  SIGN_IN_FAILURE: 'authentication/SIGN_IN_FAILURE',
+  SIGN_OUT: 'authentication/SIGN_OUT',
+};
 
 /**
  * Data types
