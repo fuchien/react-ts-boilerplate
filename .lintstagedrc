@@ -1,11 +1,11 @@
 {
-  "src/**/*.tsx": [
-      "eslint --fix",
-      "cross-env CI=true yarn test",
-      "git add"
-  ],
-  "src/**/*.ts": [
-      "eslint --fix",
-      "git add"
-  ]
+    "src/**/*.tsx": [
+        "eslint --fix",
+        "cross-env CI=true yarn test",
+        "git add"
+    ],
+    "src/**/*.ts": [
+        "eslint --fix",
+        "git add"
+    ]
 }
